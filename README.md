@@ -1,69 +1,69 @@
 # AndroidFlickster
-# Projet 1 - * Flickster*
+# Project 1 - * Flickster *
 
-** Flickster ** montre les derniers films actuellement en salles. L'application utilise l'API Movie Database pour afficher des images et des informations de base sur ces films à l'utilisateur.
+** Flickster ** shows the latest movies currently in theaters. The application uses the Movie Database API to display images and basic information about these movies to the user.
 
-Temps passé:  72 heures heures passées au total
+Time Spent: 72 hours Total Time
 
-## Histoires d'utilisateurs
+## User stories
 
-La fonctionnalité requise suivante est terminée:
+The following required functionality is complete:
 
- [] L'utilisateur peut faire défiler les films actuels à partir de l'API Movie Database
-[] La mise en page est optimisée avec le motif [ViewHolder] (http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the- viewholder-pattern).
- [] Pour chaque film affiché, l'utilisateur peut voir les détails suivants:
-   [] Titre, Image de l'affiche, Vue d'ensemble (Mode Portrait)
-   [] Titre, Image de fond, Vue d'ensemble (Mode paysage)
+ [] The user can scroll through the current movies from the Movie Database API
+[] The layout is optimized with the [ViewHolder] pattern (http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the- viewholder-pattern).
+ [] For each movie displayed, the user can see the following details:
+   [] Title, Poster Image, Overview (Portrait Mode)
+   [] Title, Background Image, Overview (Landscape Mode)
 
-Les fonctionnalités optionnelles suivantes sont implémentées:
+The following optional features are implemented:
 
-[] Afficher une belle valeur par défaut [graphique d'espace réservé] (http://guides.codepath.com/android/Affichage-Images-avec-la-Picasso-Library#configuring-picasso) pour chaque image lors du chargement.
+[] Show a nice default [placeholder graphic] (http://guides.codepath.com/android/Image-Images-with-Picasso-Library#configuring-picasso) for each image when loading .
 
-Les fonctionnalités bonus suivantes sont implémentées:
+The following bonus features are implemented:
 
- [] Permet à l'utilisateur d'afficher les détails du film, y compris les classements et la popularité, dans une activité ou un fragment de dialogue distinct.
- [] Lors de la visualisation d'un film populaire (c.-à-d. Un film voté pour plus de 5 étoiles), la vidéo devrait montrer l'image de fond complète comme mise en page. Utilise [ListViews hétérogènes] (http://guides.codepath.com/android/Implementing-a-Heterogenous-ListView) ou [Heterogenous RecyclerView] (http://guides.codepath.com/android/Heterogenous-Layouts-inside- RecyclerView) pour afficher différentes dispositions.
- [] Autoriser la lecture des bandes-annonces en plein écran à l'aide de YouTubePlayerView.
-    [] Superposition d'une icône de lecture pour les vidéos pouvant être lues.
-     [] Les films les plus populaires doivent démarrer une activité distincte qui lit la vidéo immédiatement.
-     [] Les vidéos moins populaires comptent sur la page de détails pour afficher les évaluations et un aperçu de YouTube.
- [] Appliquez la populaire [bibliothèque d'annotations Butterknife] (http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) pour réduire le code standard.
- [] Appliquer des coins arrondis pour les images d'arrière-plan ou d'affiche en utilisant [Transformations Picasso] (https://guides.codepath.com/android/Affichage-Images-avec-la-Picasso-Library#other-transformations)
- [] Remplacement du client réseau android-async-http avec les bibliothèques de réseautage populaires [OkHttp] (http://guides.codepath.com/android/Using-OkHttp).
+ [] Allows the user to view movie details, including ratings and popularity, in a separate activity or snippet.
+ [] When viewing a popular movie (ie, a movie voted for more than 5 stars), the video should show the complete background image as a layout. Uses [Heterogeneous ListViews] (http://guides.codepath.com/android/Implementing-a-Heterogenous-ListView) or [Heterogenous RecyclerView] (http://guides.codepath.com/android/Heterogenous-Layouts-inside- RecyclerView) to display different layouts.
+ [] Allow full-screen trailers to play using YouTubePlayerView.
+    [] Overlay a play icon for videos that can be played back.
+     [] The most popular movies must start a separate activity that plays the video immediately.
+     [] Less popular videos rely on the details page to view ratings and YouTube preview.
+ [] Apply the popular [Butterknife annotation library] (http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce the standard code.
+ [] Apply rounded corners for background or poster images using [Picasso Transformations] (https://guides.codepath.com/android/View-Images-with-Picasso-Library#other -transformations)
+ [] Replacing the android-async-http network client with the popular networking libraries [OkHttp] (http://guides.codepath.com/android/Using-OkHttp).
 
-Les fonctionnalités ** supplémentaires ** suivantes sont implémentées:
+The following ** additional ** features are implemented:
 
-[] Liste toute autre chose que vous pouvez faire pour améliorer la fonctionnalité de l'application!
+[] List anything else you can do to improve the functionality of the app!
 
-## Procédure pas à pas vidéo
+## Video step-by-step
 
-Voici une présentation des user stories implémentées:
+Here is an overview of the implemented user stories:
 
-<img src = 'http: //i.imgur.com/link/to/your/gif/file.gif' title = 'Vidéo Procédure pas à pas' width = '' alt = 'Vidéo Procédure pas à pas' />
+<img src = 'http: //i.imgur.com/link/to/your/gif/file.gif' title = 'Video Step by Step' width = '' alt = 'Video Walkthrough' / >
 
-GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
+GIF created with [LiceCap] (http://www.cockos.com/licecap/).
 
-## Remarques
+## Notes
 
-j'avais des difficultes a utilises Picasso dans le projet
+I had difficulties using Picasso in the project
 
-## Bibliothèques open-source utilisées
+## Open source libraries used
 
-- [HTTP asynchrone Android] (https://github.com/loopj/android-async-http) - Requêtes HTTP asynchrones simples avec analyse JSON
-- [Picasso] (http://square.github.io/picasso/) - Bibliothèque de chargement et de mise en cache d'images pour Android
+- [Android asynchronous HTTP] (https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON analysis
+- [Picasso] (http://square.github.io/picasso/) - Image loading and caching library for Android
 
 ## Licence
 
-    Droit d'auteur [yyyy] [Desilias Dimitry]
+    Copyright [yyyy] [Desilias Dimitry]
 
-    Sous licence Apache, Version 2.0 (la "Licence");
-    Vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
-    Vous pouvez obtenir une copie de la licence à
+    Licensed Apache, Version 2.0 (the "License");
+    You may not use this file except in accordance with the license.
+    You can get a copy of the license at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+        http://www.apache.org/licenses/LICENSE-2.0
 
-    Sauf si requis par la loi applicable ou accepté par écrit, logiciel
-    distribué sous licence est distribué "TEL QUEL",
-    SANS GARANTIE OU CONDITION D'AUCUNE SORTE, expresse ou implicite.
-    Voir la licence pour la langue spécifique régissant les autorisations et
-    limitations en vertu de la licence.
+    Except as required by applicable law or accepted in writing, software
+    distributed under license is distributed "AS IS",
+    WITHOUT WARRANTY OR CONDITION OF ANY KIND, express or implied.
+    See the license for the specific language governing permissions and
+    limitations under the license.
