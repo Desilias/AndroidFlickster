@@ -39,7 +39,7 @@ The following ** additional ** features are implemented:
 
 Here is an overview of the implemented user stories:
 
-<img src = 'https://imgur.com/a/UmC58EY.gif' title = 'Video Step by Step' width = '' alt = 'Video Walkthrough' / >
+<img src = 'https://imgur.com/fe8a038a-d33c-4db2-bb64-d6e5b4e5a307.gif' title = 'Video Step by Step' width = '' alt = 'Video Walkthrough' / >
 
 GIF created with [LiceCap] (http://www.cockos.com/licecap/).
 
